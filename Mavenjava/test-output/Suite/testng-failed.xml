@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <parameter name="pass" value="Ayutan@146"/>
+  <parameter name="id" value="662410"/>
+  <test name="Test(failed)">
+    <parameter name="pass" value="Ayutan@146"/>
+    <parameter name="id" value="662410"/>
+    <classes>
+      <class name="qaclickacademy.CTSTimesheet">
+        <methods>
+          <include name="login" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- qaclickacademy.CTSTimesheet -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
